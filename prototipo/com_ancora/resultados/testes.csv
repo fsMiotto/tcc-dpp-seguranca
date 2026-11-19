@@ -1,0 +1,11 @@
+Cenário,Registro afetado,Detectado,Registro em que a verificação falhou,Motivo
+Cadeia íntegra,nenhum,não,,
+Alteração de dado,2,sim,2,hash armazenado diferente do recalculado
+Alteração do hash,2,sim,2,hash armazenado diferente do recalculado
+Alteração do registro do meio com recálculo do hash,2,sim,3,hash_anterior diferente do hash do registro anterior
+Alteração do último registro com recálculo do hash,4 (último),sim,4,Último registro diferente da âncora
+Inserção no fim da cadeia,4 (último),sim,4,Último registro diferente da âncora
+Remoção no meio da cadeia,2 (removido),sim,2,índice fora da sequência
+Remoção do último registro,4 (removido),sim,3,Último registro diferente da âncora
+Troca de ordem,1 e 3,sim,1,índice fora da sequência
+Reescrita da cadeia,2 (e hashes de 2 a 4 recalculados),sim,4,Último registro diferente da âncora

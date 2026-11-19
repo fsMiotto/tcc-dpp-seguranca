@@ -1,0 +1,35 @@
+Modelagem de topicos - BERTopic
+
+Python 3.12.3
+bertopic 0.17.4
+sentence-transformers 6.2.0
+umap-learn 0.5.12
+hdbscan 0.8.44
+scikit-learn 1.9.1
+torch 2.15.0+cpu
+numpy 2.5.4
+pandas 3.1.1
+plotly 7.1.0
+kaleido 1.5.0
+
+Corpus: scopus_busca2_2026-11-03_filtrado.csv (busca B2)
+Documentos: 242
+Texto: titulo + ". " + resumo, com o resumo cortado no primeiro "©"
+Resumos cortados: 240
+
+Embeddings: all-MiniLM-L6-v2 (cpu), texto completo (com o termo de busca), calculados a cada rodada
+Semente: 1234
+UMAP: n_neighbors=15, n_components=5, min_dist=0.0, metric=cosine, random_state=1234
+HDBSCAN: min_cluster_size (min_topic_size)=5, metric=euclidean, cluster_selection_method=eom
+Sem reduce_outliers e sem seed_topic_list
+
+Descricao dos topicos: c-TF-IDF padrao, top_n_words=10
+CountVectorizer: stop_words=english (scikit-learn), ngram_range=(1, 2)
+Termo de busca retirado so da descricao (preprocessor, nessa ordem, com plural): digital product passport, product passport, digital passport, dpp
+Vocabulario: 4913 termos
+Procedimento do vocabulario: min_df=2 aplicado num CountVectorizer separado, ajustado nos 242 documentos (um por documento,
+  com a mesma limpeza do BERTopic); o vectorizer do BERTopic usa esse vocabulario sem min_df, porque e ajustado nos documentos
+  juntados por topico (ali min_df contaria topicos).
+
+Topicos: 15
+Documentos no topico -1: 66

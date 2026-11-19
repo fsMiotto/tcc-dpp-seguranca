@@ -1,0 +1,19 @@
+# Dados da Scopus (não distribuídos)
+analise_literatura/filtragem/buscas/scopus_*.csv
+analise_literatura/filtragem/resultados/*_filtrado.csv
+analise_literatura/filtragem/resultados/Removidos_*.csv
+analise_literatura/filtragem/resultados/REVISAR_*.csv
+analise_literatura/topicos/resultados/documentos_topicos.csv
+*.bib
+
+# Ambientes
+.venv/
+renv/library/
+
+# Arquivos temporários
+__pycache__/
+.pytest_cache/
+.Rhistory
+.RData
+.DS_Store
+*.zip

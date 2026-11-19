@@ -1,0 +1,91 @@
+"groups","words","name_full","n","centrality","density","rcentrality","rdensity","name","color","freq"
+1,"circular economy 22.1
+material passport 4.9
+digital twin 4.9
+digital technologies 1.8
+circularity 1.6
+critical raw materials 1.4
+building information modeling 1.2
+built environment 1.2
+data sharing 1.2
+internet of things 1.1","circular economy
+material passport
+digital twin",27,1.14768980526722,53.475974971219,8,6,"circular economy","#E41A1C80",182
+2,"blockchain 20.2
+supply chain 4.9
+smart contracts 3.1
+electric vehicles 2.3
+non-fungible token 1.5
+textile industry 1.5
+circular supply chain 1.5
+decentralized identifiers 1.4
+construction waste management 1.2
+trust 1.2","blockchain
+supply chain
+smart contracts",25,2.03750416854992,48.9905033238367,10,2,"blockchain","#377EB880",136
+3,"sustainability 13.9
+traceability 10.9
+recycling 4
+transparency 3.3
+life cycle assessment 2.6
+authentication 2
+knowledge graph 1.9
+greenwashing 1.8
+waste management 1.4
+textile 1.3","sustainability
+traceability
+recycling",14,2.10630447983389,54.672035480859,11,7,"sustainability","#4DAF4A80",75
+4,"battery passport 11.3
+interoperability 6
+data governance 5.3
+battery management system 4.5
+cybersecurity 3.9
+battery 3.1
+second life 2.4
+security 2.3
+data ownership 1.6
+cyber-physical 1.6","battery passport
+interoperability
+data governance",13,1.74209249084249,62.5555555555556,9,8,"battery passport","#984EA380",61
+5,"asset administration shell 11.6
+data space 7.5
+gaia-x 3.4
+ontology 3.3
+supply chain transparency 2.6
+verifiable credentials 2.5
+information sharing 2.5
+sustainable supply chain 2.5
+semantic interoperability 1.7
+calibration 1.7","asset administration shell
+data space
+gaia-x",14,1.08516313932981,75.2362055933484,7,11,"asset administration shell","#FF7F0080",55
+6,"artificial intelligence 13.4
+data sovereignty 6.8
+data ecosystem 4.1
+product carbon footprint 4.1
+sustainability assessment 2.8
+transdisciplinary engineering 2.8
+design science 2.7
+digital product passport system 2.6","artificial intelligence
+data sovereignty
+data ecosystem",8,0.471230158730159,68.5138888888889,6,9,"artificial intelligence","#A6562880",29
+7,"industry 4.0 17.8
+explainable ai 6
+data provenance 6
+large language models 4","industry 4.0
+explainable ai
+data provenance",4,0.319444444444444,37.962962962963,4,1,"industry 4.0","#F781BF80",17
+8,"zero-knowledge proof 7.7
+distributed ledger technology 7.6
+supply chain traceability 5.8
+epcis 2.0 5.8
+ecodesign for sustainable products regulation 5.8
+governance 3.9
+provenance 3.9
+selective disclosure 3.9
+conceptual model 3.8","zero-knowledge proof
+distributed ledger technology
+supply chain traceability",9,0.381944444444444,73.6882716049383,5,10,"zero-knowledge proof","#99999980",25
+9,"data interoperability 20.2","data interoperability",1,0,50,1.29147903657138,3.29431023503087,"data interoperability","#66C2A580",2
+10,"food product passport 17","food product passport",1,0,50,2,4,"food product passport","#FC8D6280",2
+11,"luxury supply chain 25.2","luxury supply chain",1,0,50,2.70852096342862,4.70568976496912,"luxury supply chain","#8DA0CB80",2
